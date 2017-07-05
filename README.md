@@ -12,53 +12,27 @@
 
 接下来可以使用 MarTex 了! 
 
-- 打开 terminal.app, 运行下面的指令:
-
-```sh
-bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/main.sh)
-```
-
-- 接着, terminal.app 会提示你, 把想要转换的 .md 文件拖入到当前的窗口中. 拖入完后, 按回车.
-- 等 MarTex 运行完后, 你的 .md 文件所在的目录下便会出现转换后的 .tex 和 .pdf 文件.
-
-
-## 暂时可用的新命令
-
-```tex
-bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarTex.sh)
-```
-
-```tex
-bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/TexPdf.sh)
-```
-
-```tex
-bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarPdf.sh)
-```
-
-## 新版本使用说明 (开发中)
-
-使用下面的指令来初始化程序
+先使用下面的指令来初始化程序
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/init.sh)
+source <(curl -s https://raw.githubusercontent.com/Zhenyao-Sun/MarTex/master/init.sh)
 ```
 
 使用下面的指令将一个 markdown 文件转化为一个 tex 文件
 
 ```bash
-MarTex ThePathOfYourMardkdownFile
+MarTex YourMardkdownFile
 ```
 
 使用下面的指令将一个  tex 文件编译为 pdf 文件
 
 ```tex
-TexPdf ThePathOfYourTexFile
+TexPdf YourTexFile
 ```
 
 使用下面的指令将一个 markdown 文件先运行 MarTex 再运行 TexPdf
 
 ```bash
-MarPdf ThePathOfYourTexFile
+MarPdf YourTexFile
 ```
 
