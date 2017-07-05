@@ -3,7 +3,7 @@
 若要使用 MarTex, 你需要准备如下的工具:
 
 - 一台 Mac 电脑. 
-- 在 Mac 上安装好 [Pandoc](http://pandoc.org) 和 [Mactex](https://www.tug.org/mactex/).
+- 在 Mac 上安装好 [Wget](https://en.wikipedia.org/wiki/Wget), [Pandoc](http://pandoc.org) 和 [Mactex](https://www.tug.org/mactex/).
 - 用 MarkDown 写好一篇学术文章. 这里安利下 [Typora](https://typora.io), 是一款很好用的 MarkDown 编辑器.
 
 如果你从没有用过 MarTex, 可以先下载 [example.md](https://raw.githubusercontent.com/someonedomath/MarTex/master/example.md), 作为第一次使用的实验对象. 
@@ -15,7 +15,9 @@
 先使用下面的指令来初始化程序
 
 ```bash
-source <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/init.sh)
+wget https://raw.githubusercontent.com/someonedomath/MarTex/master/MarTex_init.sh
+source MarTex_init.sh
+rm MarTex_init.sh
 ```
 
 使用下面的指令将一个 markdown 文件转化为一个 tex 文件
@@ -36,3 +38,6 @@ TexPdf YourTexFile
 MarPdf YourTexFile
 ```
 
+MarTex 是一个在线软件，需要联网才能使用。
+
+每次使用都需要初始化程序，使用后不会留下任何痕迹，不想用的话也无需卸载。
