@@ -15,7 +15,7 @@
 先使用下面的指令来初始化程序
 
 ```bash
-source <(curl -s https://raw.githubusercontent.com/Zhenyao-Sun/MarTex/master/init.sh)
+source <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/init.sh)
 ```
 
 使用下面的指令将一个 markdown 文件转化为一个 tex 文件
