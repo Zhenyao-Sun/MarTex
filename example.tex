@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage[hypertexnames=false]{hyperref}
+\usepackage{autonum}
+\usepackage{mathrsfs}
+\usepackage{filecontents}
+\newtheorem{thm}{Theorem}[section]
+\title[In line title]{ \large Title}
+\author{Author's Name}
+\address{Author's Name, Author's Adress}
+\email{Author's Email}
+\thanks{Author's Thanks Info}
+\keywords{}
+\subjclass[1991]{}
+\date{\today}
+\begin{document}
+\begin{abstract}
+Abstract
+\end{abstract}
+\maketitle
+\section{The first section}\label{the-first-section}
+\subsection{The first subsection}\label{the-first-subsection}
+\subsection{The second subsection}\label{the-second-subsection}
+Some text.
+Some in line math \(1+1=2.\)
+Some display math \[
+1+1=2. \label{eq:eq1}
+\] Refer the above equation \eqref{eq:eq1}. Cite some result
+\cite{examplekey}. Some indents:
+\begin{itemize}
+\item
+  item1
+\item
+  item2
+\end{itemize}
+\par
+A new paragraph! Display a new Theorem
+\begin{thm}\label{thm:thm1}
+There is the first theorem.
+\end{thm}
+\medskip\begin{proof}
+There is the proof of Theorem \ref{thm:thm1}.
+\end{proof}
+\section{The second section}\label{the-second-section}
+Enjoy!
+\medskip
+\bibliographystyle{alpha}
+\bibliography{tempbib}
+\begin{filecontents}{tempbib.bib}
+@book{examplekey,
+  title={Title of the article},
+  author={Author's Name of the areticle},
+  year={2010},
+  publisher={Publisher's info}
+}
+\end{filecontents}
+\end{document}
