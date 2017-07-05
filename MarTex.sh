@@ -3,9 +3,6 @@
 MDFILE=$1
 MDDIR=$(dirname $MDFILE)
 MDNAME=$(basename $MDFILE .md)
-echo $MDFILE
-echo $MDDIR
-echo $MDNAME
 # ...Change direction to the markdown file...
 cd $MDDIR
 # ...Modify the markdown file...
