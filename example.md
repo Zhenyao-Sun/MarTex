@@ -33,7 +33,7 @@ Some in line math $1+1=2.$
 
 Some display math
 $$
-1+1=2. \label{eq:eq1}
+1+1=2. \mylabel{eq:eq1}
 $$
 Refer the above equation \eqref{eq:eq1}.
 Cite some result \cite{examplekey}.
