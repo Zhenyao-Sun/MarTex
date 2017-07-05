@@ -22,13 +22,22 @@ bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/mai
 - 等 MarTex 运行完后, 你的 .md 文件所在的目录下便会出现转换后的 .tex 和 .pdf 文件.
 
 
+## 暂时可用的新命令
+
+```tex
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarTex.sh)
+```
+
+```tex
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/TexPdf.sh)
+```
 
 ## 新版本使用说明 (开发中)
 
 使用下面的指令来初始化程序
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Zhenyao-Sun/MarTex/master/init.sh)
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/init.sh)
 ```
 
 使用下面的指令将一个 markdown 文件转化为一个 tex 文件
