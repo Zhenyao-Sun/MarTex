@@ -15,7 +15,7 @@
 - 打开 terminal.app, 运行下面的指令:
 
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Zhenyao-Sun/MarTex/master/main.sh)
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/main.sh)
 ```
 
 - 接着, terminal.app 会提示你, 把想要转换的 .md 文件拖入到当前的窗口中. 拖入完后, 按回车.
