@@ -32,6 +32,10 @@ bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/Mar
 bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/TexPdf.sh)
 ```
 
+```tex
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarPdf.sh)
+```
+
 ## 新版本使用说明 (开发中)
 
 使用下面的指令来初始化程序
