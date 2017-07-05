@@ -29,13 +29,11 @@ bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/Mar
 ```
 
 ```tex
-bash <(curl -s
-https://raw.githubusercontent.com/someonedomath/MarTex/master/TexPdf.sh)
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/TexPdf.sh)
 ```
 
 ```tex
-bash <(curl -s
-https://raw.githubusercontent.com/someonedomath/MarTex/master/MarPdf.sh)
+bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarPdf.sh)
 ```
 
 ## 新版本使用说明 (开发中)
