@@ -12,12 +12,10 @@
 
 接下来可以使用 MarTex 了! 
 
-先使用下面的指令来初始化程序
+先在terminal中用下面的指令来初始化程序
 
 ```bash
-wget https://raw.githubusercontent.com/someonedomath/MarTex/master/MarTex_init.sh
-source MarTex_init.sh
-rm MarTex_init.sh
+wget https://raw.githubusercontent.com/someonedomath/MarTex/master/MarTex_init.sh && source MarTex_init.sh && rm MarTex_init.sh
 ```
 
 使用下面的指令将一个 markdown 文件转化为一个 tex 文件
