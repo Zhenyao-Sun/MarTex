@@ -14,3 +14,8 @@ MarPdf()
 	bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarPdf.sh) $1
 }
 export -f MarPdf
+MarPdfAll()
+{
+	bash <(curl -s https://raw.githubusercontent.com/someonedomath/MarTex/master/MarPdfAll.sh)
+}
+export -f MarPdf
