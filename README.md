@@ -18,24 +18,32 @@
 wget https://raw.githubusercontent.com/someonedomath/MarTex/master/MarTex_init.sh && source MarTex_init.sh && rm MarTex_init.sh
 ```
 
-使用下面的指令将一个 markdown 文件转化为一个 tex 文件
+注意MarTex 是一个在线软件，需要联网才能使用
+
+接下来 cd 到你存贮 md 文件的文件夹中
+
+使用下面的指令一次把该md所在的文件夹中，所有md文件，先连在一起，然后编译为pdf，这个功能对于写书来说非常实用
+
+```bash
+MarPdfAll YourMarkDownFile
+```
+
+也可以使用下面的指令将一个 markdown 文件转化为一个 tex 文件
 
 ```bash
 MarTex YourMardkdownFile
 ```
 
-使用下面的指令将一个  tex 文件编译为 pdf 文件
+或使用下面的指令将一个  tex 文件编译为 pdf 文件
 
 ```tex
 TexPdf YourTexFile
 ```
 
-使用下面的指令将一个 markdown 文件先运行 MarTex 再运行 TexPdf
+或使用下面的指令将一个 markdown 文件先运行 MarTex 再运行 TexPdf
 
 ```bash
 MarPdf YourTexFile
 ```
-
-MarTex 是一个在线软件，需要联网才能使用。
 
 每次使用都需要初始化程序，使用后不会留下任何痕迹，不想用的话也无需卸载。
